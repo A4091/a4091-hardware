@@ -58,3 +58,28 @@ Please discuss with your fab house which one to use.
 
 The `schematics/` directory contains the latest schematics in PDF format.
 
+## Assembly
+
+*NOTE:* The design has two footprints for a polyfuse: F309A is a through-hole
+footprint and is the same as what Commodore and DKB used in their original
+boards (the big yellow coin). If you prefer a sleeker look, it is recommended
+to go with an SMD polyfuse on F309B instead. Do not stuff both.
+
+For the ROM using a Winbond W27C512 is highly recommended as it is an EEPROM
+version that can be erased without an ultraviolet light box.
+
+### GALs
+
+For the GALs, we have used ATF22V10-10 parts for all parts except for U306 and
+U205. If you use Atmel GALs for those two parts, the card will *NOT* work
+correctly.
+
+- U306 should be a Lattice 22V10-6 or 22V10-7 (-10 will work in many
+  instances).
+- U205 should be a Lattice 22V10-15 part.
+
+If you are familiar with WinCUPL and/or the Zorro III bus protocol, and can
+help us debug why Atmel parts don't work in these positions, please [contact
+us](mailto:a4091@amiga.technology)
+
+
