@@ -82,4 +82,9 @@ If you are familiar with WinCUPL and/or the Zorro III bus protocol, and can
 help us debug why Atmel parts don't work in these positions, please [contact
 us](mailto:a4091@amiga.technology)
 
+## License
 
+The hardware files in this repository are released under Creative Commons
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+[![licensebuttons by-sa](https://licensebuttons.net/l/by-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0)
