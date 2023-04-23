@@ -10,10 +10,10 @@ In the `easyeda/` directory you will find the PCB and schematics files in
 EasyEDA's json format. You can load these files into your EasyEDA instance to
 work on them.
 
-| Filename                        | Explanation |
-|---------------------------------|-------------|
-| PCB_ReA4091_RevXX_YYYYMMDD.json | PCB         |
-| SCH_ReA4091_RevXX_YYYYMMDD.json | Schematics  |
+| Filename                         | Explanation |
+|----------------------------------|-------------|
+| ReA4091_RevX_YYYY-MM-DD_PCB.json | PCB         |
+| ReA4091_RevX_YYYY-MM-DD_SCH.json | Schematics  |
 
 ## Production Files
 
@@ -49,9 +49,9 @@ When ordering PCBs, the following values are suggested.
 ### Pick And Place
 
 There are three variants of PickAndPlace files in this repository:
-- PickAndPlace_ReA4091_RevX_YYYYMMDD.csv
-- PickAndPlace_ReA4091_RevX_YYYYMMDD_panelized_coordinates.csv
-- PickAndPlace_ReA4091_RevX_YYYYMMDD_panelized_coordinates_mirror.csv
+- ReA4091_RevX_YYYY-MM-DD_PickAndPlace.csv
+- ReA4091_RevX_YYYY-MM-DD_PickAndPlace_panelized_coordinates.csv
+- ReA4091_RevX_YYYY-MM-DD_PickAndPlace_panelized_coordinates_mirror.csv
 Please discuss with your fab house which one to use.
 
 ## Schematics
@@ -74,7 +74,7 @@ For the GALs, we have used ATF22V10-10 parts for all parts except for U306 and
 U205. If you use Atmel GALs for those two parts, the card will *NOT* work
 correctly.
 
-- U306 should be a Lattice 22V10-6 or 22V10-7 (-10 will work in many
+- U306 should be a Lattice 22V10-5 or 22V10-6 (-10 will work in many
   instances).
 - U205 should be a Lattice 22V10-15 part.
 
