@@ -1,0 +1,22 @@
+A number of minor changes went into the Rev 2 board.
+
+ 1. Increase trace width of 5V to SCSI Term power diode. Make full path 0.8mm
+ 2. Increase SCSI Term power via size
+ 3. Update silkscreen of all ferrite beads to be 60 Ohm
+ 4. Clean up / enlarge silkscreen of all bottom side part values
+ 5. Make sure all ICs have pin 1 dots visible after component is soldered down
+ 6. Change all ferrite beads to 60 Ohm @ 100 MHz
+ 7. Decrease Zorro edge connector size by 0.2mm at each end.
+    Decrease edge connector size by 0.1mm at each end
+ 8. Increase board length by 0.3mm at GAL side of board
+ 9. Make Polyfuse silkscreen closer to original
+10. Minor cleanup of schematic traces to more closely match original board.
+11. Add Dave Haynie quote to copper layer of bottom side
+12. Relabel Zorro Pin 17 and net to Z_CINH (for Zorro III).
+13. Tweak A4091 ROM socket holes slightly to handle ZIF EEPROM socket
+14. Make holes larger for crystal oscillator
+15. Decrease board length by 0.2mm at external SCSI connector side of board
+16. Reduce attachment points for SCSI terminator from 4 to 2
+17. Make C300E 100nF  (113.124 83.149)
+18. Make C300B 10nF   (125.700 83.150)
+19. Make C300H 10nF   (130.2 64.3)

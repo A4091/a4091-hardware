@@ -1,0 +1,13 @@
+Changes which went into the Rev 4 board.
+
+ 1. Relocate cap C12 away from ROM to make it easier to insert/remove ROM
+ 2. Move C300A and C10 further away from the SCSI chip for easier hand-soldering
+ 3. Rotate C351A so all large caps have the same alignment
+ 4. Add GND vias at the two large mount holes for the external SCSI connector
+ 5. Change spacing of Zorro connector fingers (were very slightly too wide)
+ 6. Correct very minor alignment issue of GAL pads
+ 7. Correct minor alignment issue of some bottom side SMD components
+ 8. Add 12/5V Berg-style floppy power connector option
+ 9. Add 12V fan power connector option
+10. Change BOM to preferred JLCPCB library parts
+11. Update silkscreen to current date and mark "B+"

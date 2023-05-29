@@ -1,0 +1,17 @@
+Rev 1 of the board was completed on November 20, 2021
+
+It was based on two original Commodore A4091 Rev B boards which were
+produced by DKB during and after Commodore's bankruptcy in 1994.
+
+Since there were no publicly-available schematics for the board, we
+reverse-engineered the schematics by studying high resolution board
+photos and by using a meter to locate every trace. This was a very
+time-consuming process. Luckily with two people working on it together,
+one doing the tracing and one capturing the schematics, the teamwork
+paid off.
+
+The first Rev 1 board was fully assembled by December 2, 2021.
+
+This revision of the board works and is stable. Since we only made
+five of this board, there are only two people outside of Stefan and
+Chris who own one.

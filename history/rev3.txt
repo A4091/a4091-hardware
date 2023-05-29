@@ -1,0 +1,19 @@
+Changes which went into the Rev 3 board.
+
+ 1. Move mouse bite tabs of terminator board to the bottom so that the cut
+    off tabs will be hidden under the SCSI connector.
+ 2. Rev2 boards produced by PCBWay were missing R121 and FB500 silk of value.
+    This does not appear to be a problem with Gerbers.
+ 3. Flip silkscreen part numbers on top side to match part markings
+ 4. Rename PLD_MASTER net to MASTER
+ 5. Update silkscreen for Rev 3
+ 6. Remove solder mask from gold fingers area
+ 7. Solder stencil should place more solder on GAL and capacitor pads
+ 8. Retract the 5V power plane layer from the drive mount area so it could be
+    safe to drill new mounts.
+ 9. Expose copper text of Haynie quote so that it will be coated with ENIG.
+10. Move Haynie quote left so that it can be completely covered by bracket.
+11. Stencil should place less solder on QFP160 pads (retract paste mask).
+12. Increase termination power trace width from 0.8mm to 1mm
+13. Increase pin socket hole size for U301 clock crystal
+14. Add optional C306B 10pF cap on Z_DTACK
