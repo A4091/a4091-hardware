@@ -4,6 +4,10 @@ This project contains Schematics and PCBs for the ReA4091 board,
 which is a reimplementation of the Commodore A4091 SCSI controller
 for the A4000 and A3000.
 
+![TOP](history/rev1_top.jpg?raw=True)
+![BOTTOM](history/rev1_bottom.jpg?raw=True)
+
+
 ## EasyEDA
 
 In the `easyeda/` directory you will find the PCB and schematics files in
