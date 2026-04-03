@@ -24,7 +24,7 @@ work on them.
 ### BOM
 
 The BOM is available as a CSV file exported by EasyEDA. You can also check out
-the [Interactive BOM](https://scsi.me/bom.html).
+the [Interactive BOM](https://scsi.me/classic/bom.html).
 
 ### Gerber
 
